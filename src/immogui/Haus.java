@@ -8,7 +8,8 @@ public class Haus {
     private String Lage;
     private boolean Kaufart;
     private Scanner sc;
-
+    private String test;
+    
     public Haus()
     {
       sc = new Scanner(System.in);

@@ -40,8 +40,6 @@ public class Wohnung {
   {
     //wohnungen.add();
   }
-
-
 }
 
 
@@ -65,6 +63,5 @@ public class Wohnung {
     {
       return this.Kaufart;
     }
-
 }
 */
