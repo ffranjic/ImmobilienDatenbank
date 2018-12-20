@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+  <children>
+    <MenuBar VBox.vgrow="NEVER">
+      <menus>
+        <Menu mnemonicParsing="false" text="File">
+          <items>
+            <MenuItem mnemonicParsing="false" text="New" />
+            <MenuItem mnemonicParsing="false" text="Open…" />
+            <Menu mnemonicParsing="false" text="Open Recent" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" text="Close" />
+            <MenuItem mnemonicParsing="false" text="Save" />
+            <MenuItem mnemonicParsing="false" text="Save As…" />
+            <MenuItem mnemonicParsing="false" text="Revert" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" text="Preferences…" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" text="Quit" />
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Edit">
+          <items>
+            <MenuItem mnemonicParsing="false" text="Undo" />
+            <MenuItem mnemonicParsing="false" text="Redo" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" text="Cut" />
+            <MenuItem mnemonicParsing="false" text="Copy" />
+            <MenuItem mnemonicParsing="false" text="Paste" />
+            <MenuItem mnemonicParsing="false" text="Delete" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" text="Select All" />
+            <MenuItem mnemonicParsing="false" text="Unselect All" />
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Help">
+          <items>
+            <MenuItem mnemonicParsing="false" text="About MyHelloApp" />
+          </items>
+        </Menu>
+      </menus>
+    </MenuBar>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="337.0" prefWidth="640.0" VBox.vgrow="ALWAYS">
+      <children>
+        <Label alignment="CENTER" layoutX="176.0" layoutY="31.0" style="&#10;" text="Immobilien mieten und kaufen " textAlignment="CENTER" wrapText="false">
+          <font>
+            <Font size="21.0" />
+          </font>
+        </Label>
+            <RadioButton layoutX="237.0" layoutY="119.0" mnemonicParsing="false" text="Mieten">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </RadioButton>
+            <RadioButton layoutX="334.0" layoutY="119.0" mnemonicParsing="false" text="Kaufen">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </RadioButton>
+            <TextField layoutX="467.0" layoutY="213.0" prefHeight="25.0" prefWidth="127.0" promptText="Ort" />
+            <Label alignment="CENTER" layoutX="457.0" layoutY="176.0" prefHeight="27.0" prefWidth="59.0" style="&#10;" text="Wo?" textAlignment="CENTER" wrapText="false">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="25.0" layoutY="175.0" prefHeight="27.0" prefWidth="59.0" style="&#10;" text="Was?" textAlignment="CENTER" wrapText="false">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <TextField layoutX="31.0" layoutY="213.0" promptText="Wohnung, Haus" />
+            <Label alignment="CENTER" layoutX="169.0" layoutY="176.0" prefHeight="27.0" prefWidth="109.0" style="&#10;" text="Preis" textAlignment="CENTER" wrapText="false">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <TextField layoutX="204.0" layoutY="213.0" prefHeight="25.0" prefWidth="109.0" promptText="(CHF)" />
+            <Label alignment="CENTER" layoutX="315.0" layoutY="175.0" prefHeight="27.0" prefWidth="109.0" style="&#10;" text="Zimmer" textAlignment="CENTER" wrapText="false">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <TextField layoutX="338.0" layoutY="213.0" prefHeight="25.0" prefWidth="109.0" promptText="Anzahl Personen" />
+            <ImageView fitHeight="412.0" fitWidth="634.0" layoutX="3.0" opacity="0.17" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@immobilien.jpg" />
+               </image>
+            </ImageView>
+      </children>
+    </AnchorPane>
+  </children>
+</VBox>
