@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="238.0" prefWidth="498.0" VBox.vgrow="ALWAYS">
+      <children>
+        <Label alignment="CENTER" layoutX="89.0" layoutY="170.0" prefHeight="73.0" prefWidth="455.0" style="&#10;" text="Ihre Immobilie wurde erfolgreich registriert. Drücken Sie auf das Feld, um fortzufahren." textFill="#171717" wrapText="true">
+          <font>
+            <Font size="18.0" />
+          </font>
+        </Label>
+            <ImageView fitHeight="81.0" fitWidth="82.0" layoutX="544.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@immobilie.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="245.0" layoutY="282.0" mnemonicParsing="false" prefHeight="14.0" prefWidth="143.0" text="✓" textFill="#3eb94c">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Button>
+      </children>
+    </AnchorPane>
+  </children>
+</VBox>
