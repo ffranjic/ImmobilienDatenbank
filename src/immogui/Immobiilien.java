@@ -26,5 +26,10 @@ public class Immobiilien {
     wohnung = new Wohnung();
 
   }
+  
+  public void test()
+  {
+      System.out.println("hallo");
+  }
 
 }
