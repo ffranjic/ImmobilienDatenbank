@@ -34,6 +34,7 @@ public class Wohnung {
       Kaufart = sc.nextBoolean();
       System.out.println("Bitte geben Sie an ob es zum Mieten oder zum verkaufen ist(0 = Mieten/ 1 = Verkaufen): ");
       Kaufart = sc.nextBoolean();
+      System.out.println("Test");
   }
 
   public void wohnungHinzufügen()
