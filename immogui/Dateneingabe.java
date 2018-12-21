@@ -43,6 +43,8 @@ public class Dateneingabe {
                     //Geh in den Konstruktor von Wohnung
                     Immogui.wohnungHinzufügen(newwohnung);
                     //Objekt in Arraylist speichern
+                    System.out.println(wohnungssammlung.size());
+                    
                     
         }           
         else
@@ -52,8 +54,9 @@ public class Dateneingabe {
                     //Geh in den Konstruktor von Haus
                     Immogui.hausHinzufügen(newhaus);
                     //Objekt in Arraylist speichern
+                    System.out.println(haussammlung.size());
                     
         } 
-        Datenausgabe datenausgabe = new Datenausgabe();
+        
     }      
 }

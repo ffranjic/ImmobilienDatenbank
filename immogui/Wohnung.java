@@ -36,10 +36,12 @@ public class Wohnung {
       if(this.kaufart)
       {
           System.out.println("Bitte gebe Sie den Preis der Immobilie an");
+          this.preis = sc.nextInt();
       }
       else
       {
           System.out.println("Bitte geben sie den Mietpreis an: ");
+          this.preis = sc.nextInt();
       }
   }
 }
