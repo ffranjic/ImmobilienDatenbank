@@ -67,12 +67,12 @@
                   <Image url="@immobilie.png" />
                </image>
             </ImageView>
-            <CheckBox layoutX="138.0" layoutY="130.0" mnemonicParsing="false" prefHeight="98.0" prefWidth="156.0" text="Wohnung">
+            <CheckBox layoutX="138.0" layoutY="130.0" mnemonicParsing="false" onAction="#wohnung" prefHeight="98.0" prefWidth="156.0" text="Wohnung">
                <font>
                   <Font size="20.0" />
                </font>
             </CheckBox>
-            <CheckBox layoutX="400.0" layoutY="130.0" mnemonicParsing="false" prefHeight="98.0" prefWidth="90.0" text="Haus">
+            <CheckBox layoutX="400.0" layoutY="130.0" mnemonicParsing="false" onAction="#haus" prefHeight="98.0" prefWidth="90.0" text="Haus">
                <font>
                   <Font size="20.0" />
                </font>
