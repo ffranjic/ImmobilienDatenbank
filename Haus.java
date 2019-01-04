@@ -18,9 +18,9 @@ public class Haus {
       sc = new Scanner(System.in);
 
       //Benötigte Daten eingeben
-      System.out.println("Bitte geben sie die grösse des Hauses an (m2): ");
+      System.out.println("Bitte geben sie die grösse der Immobilie an (m2): ");
       flaeche = sc.nextInt();
-      System.out.println("Bitte geben sie die Anzahl Zimmer des Hauses an: ");
+      System.out.println("Bitte geben sie die Anzahl Zimmer an: ");
       anzahlpersonen = sc.nextInt();
       System.out.println("Bitte gebe Sie die Ortschaft ein: ");
       Lage = sc.next();
@@ -31,12 +31,10 @@ public class Haus {
       if(this.kaufart)
       {
           System.out.println("Bitte gebe Sie den Preis der Immobilie an");
-          this.preis = sc.nextInt(); 
       }
       else
       {
           System.out.println("Bitte geben sie den Mietpreis an: ");
-          this.preis = sc.nextInt(); 
       }
     }
 

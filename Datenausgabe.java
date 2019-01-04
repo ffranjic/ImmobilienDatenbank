@@ -14,16 +14,19 @@ public class Datenausgabe
     
     public Datenausgabe()
     {
-//        sc = new Scanner(System.in);
-//        System.out.println("Soll es ein Haus oder eine Wohnung sein?:");
-//        System.out.println("Wie Teuer soll es sein:");
-//        System.out.println("Wie gross soll es sein (m2): ");
+        System.out.println("Ich bin im Datenausgabekonstruktor");
+        sc = new Scanner(System.in);
+        System.out.println("Soll es ein Haus oder eine Wohnung sein?:");
+        System.out.println("Wie Teuer soll es sein:");
+        System.out.println("Wie gross soll es sein (m2): ");
+        System.out.println("");
+    }
+
+    
+    public void wohnunghinzufügen()
+    {
         
-        //Ausgabe
-        for(int i = 0; i <= Immogui.haussammlung.size(); i++)
-        {
-            
-            Immogui.haussammlung.get(i);
-        }
-    }  
+    }
+ 
+    
 }

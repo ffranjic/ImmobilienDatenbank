@@ -23,25 +23,23 @@ public class Wohnung {
 
 
       //Benötigte Daten eingeben
-      System.out.println("Bitte geben sie die grösse der Wohnung an (m2): ");
+      System.out.println("Bitte geben sie die grösse der Immobilie an (m2): ");
       flaeche = sc.nextInt();
-      System.out.println("Bitte geben sie die Anzahl Zimmer der Wohnung an: ");
+      System.out.println("Bitte geben sie die Anzahl Zimmer an: ");
       anzahlpersonen = sc.nextInt();
       System.out.println("Bitte gebe Sie die Ortschaft ein: ");
       Lage = sc.next();
-      System.out.println("Bitte geben Sie an ob es zum Mieten oder zum verkaufen ist(false = Mieten/ true = Verkaufen): ");
+      System.out.println("Bitte geben Sie an ob es zum Mieten oder zum verkaufen ist(0 = Mieten/ 1 = Verkaufen): ");
       kaufart = sc.nextBoolean();
       
       //Kauf bzw. Mietpreis eingeben
       if(this.kaufart)
       {
           System.out.println("Bitte gebe Sie den Preis der Immobilie an");
-          this.preis = sc.nextInt();
       }
       else
       {
           System.out.println("Bitte geben sie den Mietpreis an: ");
-          this.preis = sc.nextInt();
       }
   }
 }

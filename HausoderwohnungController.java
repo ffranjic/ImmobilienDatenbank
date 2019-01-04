@@ -26,11 +26,13 @@ public class HausoderwohnungController implements Initializable {
     public ArrayList<Wohnung> wohnungssammlung;
     public ArrayList<Haus> haussammlung;
     
+    @FXML
     private void haus(ActionEvent event)
     {
         System.out.println("Du erstells ein Haus");
     }
     
+    @FXML
     private void wohnung(ActionEvent event) 
     {
         System.out.println("Du erstells eine Wohnung"); 

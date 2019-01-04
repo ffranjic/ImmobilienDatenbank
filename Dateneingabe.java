@@ -38,35 +38,19 @@ public class Dateneingabe {
         if(auswahl)
         {
          
-                    //Haus konstruktor umändern
+                    System.out.println("Ich bin ein neues Haus");
                     newwohnung = new Wohnung();
                     //Geh in den Konstruktor von Wohnung
-                    Immogui.wohnungssammlung.add(newwohnung);
+                    Immogui.wohnungHinzufügen(newwohnung);
                     //Objekt in Arraylist speichern
-                   
-                    
-                    
         }           
         else
         {
-                    //Wohnungs Konstruktor umändern
+                    System.out.println("Ich bin eine neue Wohnung");
                     newhaus = new Haus(); 
-                    Immogui.haussammlung.add(newhaus);
+                    //Geh in den Konstruktor von Haus
+                    Immogui.hausHinzufügen(newhaus);
                     //Objekt in Arraylist speichern
-
-                    
-        }    
-    }    
-    
-    
-    //Button neues Inserat
-    public void neuesInserat()
-    {
-        Dateneingabe dateneingabe = new Dateneingabe();
-    }
-    
-    public void Zurück()
-    {
-        Immogui immogui = new Immogui();
-    }
+        } 
+    }      
 }

@@ -1,7 +1,6 @@
 
 package immogui;
 
-import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
@@ -18,8 +17,6 @@ public class WastunController implements Initializable {
     private Button button1;
     private Button button2;
     
-    private static Immogui immogui = new Immogui();
-    
     @Override
     public void initialize(URL url, ResourceBundle rb) 
     {
@@ -27,23 +24,15 @@ public class WastunController implements Initializable {
     }    
 
     @FXML
-    private void Immoinserat(ActionEvent event) throws Exception 
+    private void Immoinserat(ActionEvent event) 
     {  
-        System.out.println("lasjdlkfjasdf");
-        immogui.initImmo();
-        //Dateneingabe dateneingabe = new Dateneingabe();
-        
+        Dateneingabe dateneingabe = new Dateneingabe();
         
     }
 
     @FXML
-    private void Immokaufen(ActionEvent event) throws Exception 
+    private void Immokaufen(ActionEvent event) 
     {
-        immogui.kaufImmo();
-        //Datenausgabe datenausgabe = new Datenausgabe();
+        Datenausgabe datenausgabe = new Datenausgabe();
     }  
-    
-    public void setManager(Immogui immogui){
-        this.immogui=immogui;
-    }
 }
